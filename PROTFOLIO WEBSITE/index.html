@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Website</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <!-- <link rel="stylesheet" href="../CSS/style.css"> -->
+     <link rel="stylesheet" href="../CSS.2/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--navgaation menu-->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span>Mesa</span>
+                </div>
+                <div class="links">
+                    <div class="link"><a href="#">Home</a></div>
+                    <div class="link"><a href="#">About</a></div>
+                    <div class="link"><a href="#">Skills</a></div>
+                    <div class="link"><a href="#">Services</a></div>
+                    <div class="link"><a href="#">Contact</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                   <a href="#">Home</a> 
+                   <a href="#">About</a> 
+                   <a href="#">Skills</a> 
+                   <a href="#">Service</a> 
+                   <a href="#">Contact</a> 
+                   <i class="fa-solid fa-xmark cancle" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+        <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="./photo_2025-05-27_22-54-29.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Hey I'm
+                    <span>Mesa</span>
+                </h1>
+                <div class="typewriter">
+                  I'm a 
+                  <span class="typewriterr-text"></span>
+                  <label for="">|</label>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque optio, eum obcaecati,
+                    illo voluptates blanditiis velit animi, officia distinctio nesciunt iure modi voluptatem reiciendis. 
+                    Magnam minus ipsum veniam quos impedit.</p>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="btn">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!--About Section Start-->
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                   <img src="./photo_2025-05-27_22-54-29.jpg" alt=""> 
+                </div>
+                <div class="right">
+                    <div class="topic">Designing Is My Passion</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque provident dolorum ratione harum aut 
+                        assumenda soluta amet aspernatur blanditiis at.
+                        Dolor adipisci distinctio eligendi omnis quos et! Ex, pariatur facilis.</p>
+                    <div class="button">
+                        <button>Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--My Skill Section Start-->
+    <section class="skill" id="skill">
+        <div class="content">
+          <div class="title"><span>My Skills</span></div>
+          <div class="skills-details">
+            <div class="text">
+                <div class="topic">
+                  Skills Reflects Our Knowladge  
+                </div>
+                <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quia similique esse reiciendis tempore natus ipsam ullam corrupti laborum nesciunt? 
+                    Itaque quaerat consequuntur sapiente incidunt est, nemo reprehenderit expedita.
+                    Distinctio, quod.</p>
+                <div class="experience">
+                    <div class="num">10</div>
+                   <div class="exp">
+                    Years Of<br/>
+                    Experiece
+                   </div> 
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">HTML</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">CSS</div>
+                    <div class="per">80%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">JavScript</div>
+                    <div class="per">70%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">PHP</div>
+                    <div class="per">60%</div>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </section>
+
+
+    <!--My Sverices Section Start-->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Delopment</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores porro praesentium quaerat vel, 
+                       fugit omnis similique eos quam, doloribus dignissimos numquam cum. Mollitia quisquam quibusdam magni maxime nobis dolorum dicta.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graghic Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repellendus consequatur quaerat,
+                        illo nulla at magnam neque maiores doloremque optio. Dolore ipsum voluptate minima cumque quasi labore ipsa aspernatur perspiciatis!</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dolores aperiam unde ut officiis at!
+                        Quasi, architecto veniam porro eum numquam, ipsa excepturi iste rerum recusandae error, repudiandae voluptatibus. Ratione.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Icon Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam pariatur alias sit animi optio 
+                        fuga cumque odio placeat enim sapiente magnam explicabo illum modi ab veritatis, non tempore at esse.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Photography</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi culpa quae, perferendis 
+                        voluptatibus est quibusdam distinctio recusandae atque incidunt dolorem sapiente excepturi rerum explicabo 
+                        corporis eaque labore delectus quam.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Devlopment</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, magnam. Pariatur aperiam 
+                        porro aspernatur id maiores. Debitis ad mollitia tenetur dignissimos illo iusto nam. Culpa 
+                        vitae repellendus alias quas blanditiis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact Me section Start-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic">Have Any Project?</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic aperiam animi aut 
+                    voluptatibus ad recusandae, doloribus quas sed quia soluta! Cumque autem natus ducimus 
+                    consectetur illo. Odio, nam similique!</p>
+                <div class="button">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section Start-->
+    <footer>
+        <div class="text">
+            <span>Created By 
+             <a href="#">procoder09</a>
+            |&#169;2025 Rights Reserved</span>
+        </div>
+    </footer>
+</body>
+</html>
